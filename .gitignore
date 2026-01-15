@@ -24,7 +24,7 @@ dist/
 # Compiled Object files
 *.o
 *.ko
-*.obj
+# Note: NOT excluding *.obj as it's needed for 3D mesh files in Gazebo
 *.elf
 
 # Linker output
