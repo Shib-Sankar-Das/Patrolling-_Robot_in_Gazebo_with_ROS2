@@ -1,0 +1,165 @@
+2026-01-15 10:14:03,167 - INFO - ============================================================
+2026-01-15 10:14:03,167 - INFO - PATROL ROBOT STARTED
+2026-01-15 10:14:03,167 - INFO - ============================================================
+2026-01-15 10:14:03,167 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 10:14:03,184 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 10:14:39,255 - INFO - Nav2 stack is active and ready
+2026-01-15 10:14:39,255 - INFO - Added waypoint: Kitchen at (2.0, 1.0)
+2026-01-15 10:14:39,255 - INFO - Added waypoint: Living Room at (3.0, -1.0)
+2026-01-15 10:14:39,255 - INFO - Added waypoint: Bedroom at (1.0, -2.0)
+2026-01-15 10:14:39,256 - INFO - Added waypoint: Entrance at (-1.0, 0.0)
+2026-01-15 10:14:39,256 - INFO - Starting Patrol Cycle 1/2
+2026-01-15 10:14:56,815 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:15:01,032 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:15:05,848 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:15:09,370 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 10:15:09,372 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:15:09,373 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:15:09,373 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:15:09,373 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:15:09,373 - INFO - Starting Patrol Cycle 2/2
+2026-01-15 10:15:13,691 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:15:26,334 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:15:30,549 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:15:35,271 - INFO - Patrol Cycle 2 COMPLETED
+2026-01-15 10:15:35,272 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:15:35,273 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:15:35,274 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:15:35,275 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:15:35,276 - INFO - Returning to start position...
+2026-01-15 10:15:35,321 - ERROR - Failed to return to start
+2026-01-15 10:15:35,322 - INFO - PATROL MISSION COMPLETE
+2026-01-15 10:20:46,490 - INFO - ============================================================
+2026-01-15 10:20:46,490 - INFO - PATROL ROBOT STARTED
+2026-01-15 10:20:46,490 - INFO - ============================================================
+2026-01-15 10:20:46,490 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 10:20:46,508 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 10:21:04,542 - INFO - Nav2 stack is active and ready
+2026-01-15 10:21:04,542 - INFO - Added waypoint: Kitchen at (2.0, 1.0)
+2026-01-15 10:21:04,543 - INFO - Added waypoint: Living Room at (3.0, -1.0)
+2026-01-15 10:21:04,543 - INFO - Added waypoint: Bedroom at (1.0, -2.0)
+2026-01-15 10:21:04,543 - INFO - Added waypoint: Entrance at (-1.0, 0.0)
+2026-01-15 10:21:04,543 - INFO - Starting Patrol Cycle 1/2
+2026-01-15 10:21:11,254 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:21:16,061 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:21:21,474 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:21:42,552 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 10:21:42,553 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:21:42,553 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:21:42,553 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:21:42,553 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:21:42,553 - INFO - Starting Patrol Cycle 2/2
+2026-01-15 10:21:48,089 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:21:52,307 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:21:56,522 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:22:32,563 - INFO - Patrol Cycle 2 COMPLETED
+2026-01-15 10:22:32,563 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:22:32,563 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:22:32,563 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:22:32,563 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:22:32,563 - INFO - Returning to start position...
+2026-01-15 10:22:32,618 - WARNING - Return to start result: NavigationResult.FAILED
+2026-01-15 10:22:32,619 - INFO - PATROL MISSION COMPLETE
+2026-01-15 10:22:32,776 - INFO - ============================================================
+2026-01-15 10:22:32,776 - INFO - ============================================================
+2026-01-15 10:22:32,778 - INFO - PATROL ROBOT STARTED
+2026-01-15 10:22:32,778 - INFO - PATROL ROBOT STARTED
+2026-01-15 10:22:32,780 - INFO - ============================================================
+2026-01-15 10:22:32,780 - INFO - ============================================================
+2026-01-15 10:22:32,782 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 10:22:32,782 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 10:22:32,789 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 10:22:32,789 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 10:22:40,824 - INFO - Nav2 stack is active and ready
+2026-01-15 10:22:40,824 - INFO - Nav2 stack is active and ready
+2026-01-15 10:22:40,826 - INFO - Added waypoint: Kitchen at (2.0, 1.0)
+2026-01-15 10:22:40,826 - INFO - Added waypoint: Kitchen at (2.0, 1.0)
+2026-01-15 10:22:40,828 - INFO - Added waypoint: Living Room at (3.0, -1.0)
+2026-01-15 10:22:40,828 - INFO - Added waypoint: Living Room at (3.0, -1.0)
+2026-01-15 10:22:40,829 - INFO - Added waypoint: Bedroom at (1.0, -2.0)
+2026-01-15 10:22:40,829 - INFO - Added waypoint: Bedroom at (1.0, -2.0)
+2026-01-15 10:22:40,831 - INFO - Added waypoint: Entrance at (-1.0, 0.0)
+2026-01-15 10:22:40,831 - INFO - Added waypoint: Entrance at (-1.0, 0.0)
+2026-01-15 10:22:40,833 - INFO - Starting Patrol Cycle 1/2
+2026-01-15 10:22:40,833 - INFO - Starting Patrol Cycle 1/2
+2026-01-15 10:23:03,826 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:23:03,826 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:23:10,451 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:23:10,451 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:23:15,874 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:23:15,874 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:23:18,795 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 10:23:18,795 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 10:23:18,795 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:23:18,795 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:23:18,796 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:23:18,796 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:23:18,796 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:23:18,796 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:23:18,796 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:23:18,796 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:23:18,796 - INFO - Starting Patrol Cycle 2/2
+2026-01-15 10:23:18,796 - INFO - Starting Patrol Cycle 2/2
+2026-01-15 10:23:24,336 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:23:24,336 - INFO - Navigating to: Living Room (3.0, -1.0)
+2026-01-15 10:23:27,952 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:23:27,952 - INFO - Navigating to: Bedroom (1.0, -2.0)
+2026-01-15 10:23:33,374 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:23:33,374 - INFO - Navigating to: Entrance (-1.0, 0.0)
+2026-01-15 10:23:36,889 - INFO - Patrol Cycle 2 COMPLETED
+2026-01-15 10:23:36,889 - INFO - Patrol Cycle 2 COMPLETED
+2026-01-15 10:23:36,890 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Kitchen at (2.0, 1.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Living Room at (3.0, -1.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Bedroom at (1.0, -2.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:23:36,890 - INFO -   Visited: Entrance at (-1.0, 0.0)
+2026-01-15 10:23:36,890 - INFO - Returning to start position...
+2026-01-15 10:23:36,890 - INFO - Returning to start position...
+2026-01-15 10:23:36,935 - WARNING - Return to start result: NavigationResult.FAILED
+2026-01-15 10:23:36,935 - WARNING - Return to start result: NavigationResult.FAILED
+2026-01-15 10:23:36,936 - INFO - PATROL MISSION COMPLETE
+2026-01-15 10:23:36,936 - INFO - PATROL MISSION COMPLETE
+2026-01-15 10:40:45,293 - INFO - ============================================================
+2026-01-15 10:40:45,301 - INFO - PATROL ROBOT STARTED
+2026-01-15 10:40:45,302 - INFO - ============================================================
+2026-01-15 10:40:45,304 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 10:40:45,391 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 10:40:49,454 - INFO - Nav2 stack is active and ready
+2026-01-15 10:40:49,454 - INFO - Added waypoint: Living Room Center at (1.0, -1.5)
+2026-01-15 10:40:49,454 - INFO - Added waypoint: Living Room East at (3.0, -1.0)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Kitchen Entrance at (5.0, 0.5)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Kitchen Table at (6.5, 1.0)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Kitchen Corner at (7.5, -2.5)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Main Entrance at (5.0, -4.0)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Entrance Hallway at (3.0, -4.0)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Central Hall South at (0.0, -3.5)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Central Hall at (0.0, 0.0)
+2026-01-15 10:40:49,455 - INFO - Added waypoint: Central Hall North at (0.0, 2.0)
+2026-01-15 10:40:49,456 - INFO - Added waypoint: Fitness Room at (3.0, 3.0)
+2026-01-15 10:40:49,456 - INFO - Added waypoint: Fitness Corner at (2.5, 2.5)
+2026-01-15 10:40:49,456 - INFO - Added waypoint: Dining Area at (-0.5, 3.5)
+2026-01-15 10:40:49,456 - INFO - Added waypoint: Balcony at (1.0, 4.0)
+2026-01-15 10:40:49,456 - INFO - Added waypoint: Bedroom Door at (-3.0, 1.0)
+2026-01-15 10:40:49,456 - INFO - Added waypoint: Bedroom Center at (-5.5, 1.5)
+2026-01-15 10:40:49,457 - INFO - Added waypoint: Bedroom Corner at (-7.0, 2.5)
+2026-01-15 10:40:49,459 - INFO - Added waypoint: West Hallway North at (-3.0, -1.0)
+2026-01-15 10:40:49,461 - INFO - Added waypoint: West Hallway Center at (-5.0, -1.0)
+2026-01-15 10:40:49,463 - INFO - Added waypoint: West Hallway South at (-6.5, -3.5)
+2026-01-15 10:40:49,465 - INFO - Added waypoint: Southwest Corner at (-7.5, -4.0)
+2026-01-15 10:40:49,468 - INFO - Added waypoint: Southwest Room at (-6.0, -4.5)
+2026-01-15 10:40:49,470 - INFO - Added waypoint: Return Path West at (-3.0, -2.0)
+2026-01-15 10:40:49,471 - INFO - Added waypoint: Return Path Center at (-1.0, -1.0)
+2026-01-15 10:40:49,474 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 10:42:06,701 - INFO - Navigating to: Living Room East (3.0, -1.0)
+2026-01-15 10:42:29,590 - INFO - Navigating to: Kitchen Entrance (5.0, 0.5)
+2026-01-15 10:42:44,043 - INFO - Navigating to: Kitchen Table (6.5, 1.0)
+2026-01-15 10:43:24,419 - INFO - Navigating to: Kitchen Corner (7.5, -2.5)
+2026-01-15 10:43:46,111 - INFO - Navigating to: Main Entrance (5.0, -4.0)
+2026-01-15 10:44:07,794 - INFO - Navigating to: Entrance Hallway (3.0, -4.0)
+2026-01-15 10:44:33,092 - INFO - Navigating to: Central Hall South (0.0, -3.5)
+2026-01-15 10:44:56,577 - INFO - Navigating to: Central Hall (0.0, 0.0)
+2026-01-15 10:45:34,541 - INFO - Navigating to: Central Hall North (0.0, 2.0)
+2026-01-15 10:46:16,094 - INFO - Navigating to: Fitness Room (3.0, 3.0)

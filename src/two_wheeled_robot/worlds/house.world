@@ -826,10 +826,20 @@
       <cast_shadows>0</cast_shadows>
       <direction>0 0 -1</direction>
     </light>
-      <include>
-        <uri>model://two_wheeled_robot_description</uri>
-        <static>false</static>
-        <pose>0.0 0.0 0.25 0 0 0</pose>
-      </include>
+
+    <!-- ROS2 Gazebo Plugin for spawn_entity service -->
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+      <update_rate>50.0</update_rate>
+    </plugin>
+
+    <plugin name="gazebo_ros_factory" filename="libgazebo_ros_factory.so">
+      <ros>
+        <namespace>/</namespace>
+      </ros>
+    </plugin>
+
   </world>
 </sdf>

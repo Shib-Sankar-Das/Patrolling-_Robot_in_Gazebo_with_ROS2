@@ -9,7 +9,7 @@
 
 import os
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, TimerAction
 from launch.conditions import IfCondition, UnlessCondition
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import Command, LaunchConfiguration, PythonExpression
@@ -169,17 +169,19 @@ def generate_launch_description():
     PythonLaunchDescriptionSource(os.path.join(pkg_gazebo_ros, 'launch', 'gzclient.launch.py')),
     condition=IfCondition(PythonExpression([use_simulator, ' and not ', headless])))
 
-  # Launch the robot
-  spawn_entity_cmd = Node(
-    package='gazebo_ros',
-    executable='spawn_entity.py',
-    arguments=['-entity', robot_name_in_model,
-               '-file', sdf_model,
-                  '-x', spawn_x_val,
-                  '-y', spawn_y_val,
-                  '-z', spawn_z_val,
-                  '-Y', spawn_yaw_val],
-       output='screen')
+  # Launch the robot (with delay to wait for Gazebo to be ready)
+  spawn_entity_cmd = TimerAction(
+    period=5.0,  # Wait 5 seconds for Gazebo to fully start
+    actions=[Node(
+      package='gazebo_ros',
+      executable='spawn_entity.py',
+      arguments=['-entity', robot_name_in_model,
+                 '-file', sdf_model,
+                 '-x', spawn_x_val,
+                 '-y', spawn_y_val,
+                 '-z', spawn_z_val,
+                 '-Y', spawn_yaw_val],
+      output='screen')])
 
   # Start robot localization using an Extended Kalman filter
   start_robot_localization_cmd = Node(
@@ -210,16 +212,18 @@ def generate_launch_description():
     output='screen',
     arguments=['-d', rviz_config_file])    
 
-  # Launch the ROS 2 Navigation Stack
-  start_ros2_navigation_cmd = IncludeLaunchDescription(
-    PythonLaunchDescriptionSource(os.path.join(nav2_launch_dir, 'bringup_launch.py')),
-    launch_arguments = {'namespace': namespace,
-                        'use_namespace': use_namespace,
-                        'slam': slam,
-                        'map': map_yaml_file,
-                        'use_sim_time': use_sim_time,
-                        'params_file': params_file,
-                        'autostart': autostart}.items())
+  # Launch the ROS 2 Navigation Stack (with delay to wait for robot spawn)
+  start_ros2_navigation_cmd = TimerAction(
+    period=15.0,  # Wait 15 seconds for robot spawn + EKF to fully stabilize
+    actions=[IncludeLaunchDescription(
+      PythonLaunchDescriptionSource(os.path.join(nav2_launch_dir, 'bringup_launch.py')),
+      launch_arguments = {'namespace': namespace,
+                          'use_namespace': use_namespace,
+                          'slam': slam,
+                          'map': map_yaml_file,
+                          'use_sim_time': use_sim_time,
+                          'params_file': params_file,
+                          'autostart': autostart}.items())])
 
   # Create the launch description and populate
   ld = LaunchDescription()
@@ -244,7 +248,7 @@ def generate_launch_description():
   # Add any actions
   ld.add_action(start_gazebo_server_cmd)
   ld.add_action(start_gazebo_client_cmd)
-  #ld.add_action(spawn_entity_cmd)
+  ld.add_action(spawn_entity_cmd)  # FIXED: Uncommented to spawn the robot
   ld.add_action(start_robot_localization_cmd)
   ld.add_action(start_robot_state_publisher_cmd)
   ld.add_action(start_rviz_cmd)

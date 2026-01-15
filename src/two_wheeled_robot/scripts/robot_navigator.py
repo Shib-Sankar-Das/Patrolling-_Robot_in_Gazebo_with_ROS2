@@ -175,6 +175,10 @@ class BasicNavigator(Node):
         self.debug('Goal succeeded!')
         return True
 
+    # Alias for isNavComplete (used by some scripts)
+    def isTaskComplete(self):
+        return self.isNavComplete()
+
     def getFeedback(self):
         return self.feedback
 
