@@ -97,40 +97,38 @@ def main():
 
     # =========================================================================
     # STEP 2: Define Patrol Waypoints (covering entire house map)
-    # These waypoints are based on the working security_demo.py and run_inspection.py
-    # with positions verified to avoid walls and obstacles.
+    # Based on working coordinates from security_demo.py and run_inspection.py
+    # These waypoints are tested and verified to avoid walls/obstacles
     # =========================================================================
     waypoints = [
-        # === SAFE PATROL ROUTE (Tested coordinates from security_demo.py) ===
+        # === SAFE PATROL ROUTE (Verified from demo scripts) ===
         
-        # Start from center
-        {"name": "Start Position", "x": 0.0, "y": 0.0},
+        # Start - center of map
+        {"name": "Start", "x": 0.0, "y": 0.0},
         
-        # Move to kitchen area (east)
-        {"name": "Kitchen Entrance", "x": 4.0, "y": 0.0},
+        # Kitchen area (east) - open space
+        {"name": "Kitchen East", "x": 4.0, "y": 0.0},
+        
+        # Kitchen corner - verified safe position
         {"name": "Kitchen Corner", "x": 7.0, "y": -2.5},
         
-        # Move to south entrance
+        # South entrance - open corridor
         {"name": "South Entrance", "x": 0.0, "y": -4.0},
         
-        # Move to west hallway
-        {"name": "West Hallway", "x": -2.5, "y": -1.5},
+        # West corridor junction
+        {"name": "West Junction", "x": -2.5, "y": -1.5},
         
-        # Move to southwest corner
-        {"name": "Southwest Corner", "x": -5.0, "y": -4.0},
+        # Southwest room
+        {"name": "Southwest Room", "x": -5.0, "y": -4.0},
         
-        # Return via west hallway
+        # Bedroom area (northwest) - far west
+        {"name": "Bedroom", "x": -8.0, "y": -0.25},
+        
+        # Return via west junction
         {"name": "West Return", "x": -2.5, "y": -1.5},
         
-        # Move to bedroom area (northwest)
-        {"name": "Bedroom Area", "x": -8.0, "y": -0.25},
-        
-        # Additional safe waypoints for better coverage
-        {"name": "North Central", "x": 0.0, "y": 2.0},
-        {"name": "Fitness Area", "x": 2.0, "y": 2.0},
-        
-        # Return to near center (not exactly at 0,0 to avoid nav issues)
-        {"name": "Return Center", "x": 0.5, "y": 0.5},
+        # Back to start area
+        {"name": "Return", "x": 0.5, "y": 0.5},
     ]
     
     goal_poses = []

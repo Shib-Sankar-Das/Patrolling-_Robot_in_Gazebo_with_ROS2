@@ -1,3 +1,5 @@
+# Ignore extras folder containing non-house_world files
+src/two_wheeled_robot/extras/
 # ROS2 Build and Install directories
 build/
 install/

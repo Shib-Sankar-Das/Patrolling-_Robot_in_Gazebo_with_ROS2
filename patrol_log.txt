@@ -472,3 +472,310 @@
 2026-01-15 20:04:32,508 - INFO - Returning to start position...
 2026-01-15 20:04:54,052 - INFO - Returned to start position
 2026-01-15 20:04:54,053 - INFO - PATROL MISSION COMPLETE
+2026-01-15 20:22:00,067 - INFO - ============================================================
+2026-01-15 20:22:00,067 - INFO - PATROL ROBOT STARTED
+2026-01-15 20:22:00,067 - INFO - ============================================================
+2026-01-15 20:22:00,067 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 20:22:00,084 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 20:22:04,100 - INFO - Nav2 stack is active and ready
+2026-01-15 20:22:04,103 - INFO - Added waypoint: Start Position at (0.0, 0.0)
+2026-01-15 20:22:04,105 - INFO - Added waypoint: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:22:04,107 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:22:04,110 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 20:22:04,110 - INFO - Added waypoint: West Hallway at (-2.5, -1.5)
+2026-01-15 20:22:04,111 - INFO - Added waypoint: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:22:04,112 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 20:22:04,112 - INFO - Added waypoint: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:22:04,113 - INFO - Added waypoint: North Central at (0.0, 2.0)
+2026-01-15 20:22:04,113 - INFO - Added waypoint: Fitness Area at (2.0, 2.0)
+2026-01-15 20:22:04,113 - INFO - Added waypoint: Return Center at (0.5, 0.5)
+2026-01-15 20:22:04,113 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 20:22:07,836 - INFO - Navigating to: Kitchen Entrance (4.0, 0.0)
+2026-01-15 20:22:39,148 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 20:22:54,799 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 20:24:24,444 - INFO - Navigating to: West Hallway (-2.5, -1.5)
+2026-01-15 20:26:16,997 - INFO - Navigating to: Southwest Corner (-5.0, -4.0)
+2026-01-15 20:26:30,817 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 20:26:44,637 - INFO - Navigating to: Bedroom Area (-8.0, -0.25)
+2026-01-15 20:27:06,872 - INFO - Navigating to: North Central (0.0, 2.0)
+2026-01-15 20:27:30,310 - INFO - Navigating to: Fitness Area (2.0, 2.0)
+2026-01-15 20:27:38,728 - INFO - Navigating to: Return Center (0.5, 0.5)
+2026-01-15 20:27:52,451 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 20:27:52,451 - INFO -   Visited: Start Position at (0.0, 0.0)
+2026-01-15 20:27:52,451 - INFO -   Visited: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:27:52,451 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:27:52,451 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 20:27:52,451 - INFO -   Visited: West Hallway at (-2.5, -1.5)
+2026-01-15 20:27:52,451 - INFO -   Visited: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:27:52,451 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 20:27:52,451 - INFO -   Visited: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:27:52,451 - INFO -   Visited: North Central at (0.0, 2.0)
+2026-01-15 20:27:52,451 - INFO -   Visited: Fitness Area at (2.0, 2.0)
+2026-01-15 20:27:52,451 - INFO -   Visited: Return Center at (0.5, 0.5)
+2026-01-15 20:27:52,451 - INFO - Returning to start position...
+2026-01-15 20:28:09,684 - INFO - Returned to start position
+2026-01-15 20:28:09,684 - INFO - PATROL MISSION COMPLETE
+2026-01-15 20:40:36,757 - INFO - ============================================================
+2026-01-15 20:40:36,757 - INFO - PATROL ROBOT STARTED
+2026-01-15 20:40:36,757 - INFO - ============================================================
+2026-01-15 20:40:36,758 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 20:40:36,780 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 20:40:40,799 - INFO - Nav2 stack is active and ready
+2026-01-15 20:40:40,801 - INFO - Added waypoint: Start Position at (0.0, 0.0)
+2026-01-15 20:40:40,802 - INFO - Added waypoint: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:40:40,804 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:40:40,806 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 20:40:40,808 - INFO - Added waypoint: West Hallway at (-2.5, -1.5)
+2026-01-15 20:40:40,810 - INFO - Added waypoint: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:40:40,813 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 20:40:40,815 - INFO - Added waypoint: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:40:40,816 - INFO - Added waypoint: North Central at (0.0, 2.0)
+2026-01-15 20:40:40,817 - INFO - Added waypoint: Fitness Area at (2.0, 2.0)
+2026-01-15 20:40:40,818 - INFO - Added waypoint: Return Center at (0.5, 0.5)
+2026-01-15 20:40:40,818 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 20:40:44,543 - INFO - Navigating to: Kitchen Entrance (4.0, 0.0)
+2026-01-15 20:40:58,391 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 20:41:12,851 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 20:41:50,803 - INFO - Navigating to: West Hallway (-2.5, -1.5)
+2026-01-15 20:44:09,946 - INFO - Navigating to: Southwest Corner (-5.0, -4.0)
+2026-01-15 20:45:04,103 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 20:47:32,585 - INFO - ============================================================
+2026-01-15 20:47:32,587 - INFO - PATROL ROBOT STARTED
+2026-01-15 20:47:32,588 - INFO - ============================================================
+2026-01-15 20:47:32,589 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 20:47:32,646 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 20:47:36,705 - INFO - Nav2 stack is active and ready
+2026-01-15 20:47:36,706 - INFO - Added waypoint: Start Position at (0.0, 0.0)
+2026-01-15 20:47:36,708 - INFO - Added waypoint: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:47:36,709 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:47:36,711 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 20:47:36,713 - INFO - Added waypoint: West Hallway at (-2.5, -1.5)
+2026-01-15 20:47:36,714 - INFO - Added waypoint: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:47:36,714 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 20:47:36,715 - INFO - Added waypoint: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:47:36,715 - INFO - Added waypoint: North Central at (0.0, 2.0)
+2026-01-15 20:47:36,715 - INFO - Added waypoint: Fitness Area at (2.0, 2.0)
+2026-01-15 20:47:36,715 - INFO - Added waypoint: Return Center at (0.5, 0.5)
+2026-01-15 20:47:36,715 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 20:47:40,427 - INFO - Navigating to: Kitchen Entrance (4.0, 0.0)
+2026-01-15 20:47:54,282 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 20:48:08,133 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 20:48:38,860 - INFO - Navigating to: West Hallway (-2.5, -1.5)
+2026-01-15 20:49:10,178 - INFO - Navigating to: Southwest Corner (-5.0, -4.0)
+2026-01-15 20:49:40,294 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 20:49:52,342 - INFO - Navigating to: Bedroom Area (-8.0, -0.25)
+2026-01-15 20:50:16,438 - INFO - Navigating to: North Central (0.0, 2.0)
+2026-01-15 20:50:42,949 - INFO - Navigating to: Fitness Area (2.0, 2.0)
+2026-01-15 20:50:51,384 - INFO - Navigating to: Return Center (0.5, 0.5)
+2026-01-15 20:51:23,930 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 20:51:23,930 - INFO -   Visited: Start Position at (0.0, 0.0)
+2026-01-15 20:51:23,930 - INFO -   Visited: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:51:23,930 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:51:23,930 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 20:51:23,930 - INFO -   Visited: West Hallway at (-2.5, -1.5)
+2026-01-15 20:51:23,930 - INFO -   Visited: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:51:23,930 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 20:51:23,930 - INFO -   Visited: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:51:23,931 - INFO -   Visited: North Central at (0.0, 2.0)
+2026-01-15 20:51:23,931 - INFO -   Visited: Fitness Area at (2.0, 2.0)
+2026-01-15 20:51:23,931 - INFO -   Visited: Return Center at (0.5, 0.5)
+2026-01-15 20:51:23,931 - INFO - Returning to start position...
+2026-01-15 20:51:33,493 - INFO - Returned to start position
+2026-01-15 20:51:33,495 - INFO - PATROL MISSION COMPLETE
+2026-01-15 20:55:06,612 - INFO - ============================================================
+2026-01-15 20:55:06,612 - INFO - PATROL ROBOT STARTED
+2026-01-15 20:55:06,612 - INFO - ============================================================
+2026-01-15 20:55:06,613 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 20:55:06,689 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 20:55:10,729 - INFO - Nav2 stack is active and ready
+2026-01-15 20:55:10,730 - INFO - Added waypoint: Start Position at (0.0, 0.0)
+2026-01-15 20:55:10,732 - INFO - Added waypoint: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:55:10,733 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:55:10,735 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 20:55:10,737 - INFO - Added waypoint: West Hallway at (-2.5, -1.5)
+2026-01-15 20:55:10,740 - INFO - Added waypoint: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:55:10,742 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 20:55:10,745 - INFO - Added waypoint: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:55:10,745 - INFO - Added waypoint: North Central at (0.0, 2.0)
+2026-01-15 20:55:10,746 - INFO - Added waypoint: Fitness Area at (2.0, 2.0)
+2026-01-15 20:55:10,746 - INFO - Added waypoint: Return Center at (0.5, 0.5)
+2026-01-15 20:55:10,747 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 20:55:14,462 - INFO - Navigating to: Kitchen Entrance (4.0, 0.0)
+2026-01-15 20:55:28,927 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 20:55:43,386 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 20:56:20,151 - INFO - Navigating to: West Hallway (-2.5, -1.5)
+2026-01-15 20:56:40,623 - INFO - Navigating to: Southwest Corner (-5.0, -4.0)
+2026-01-15 20:57:16,771 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 20:57:30,630 - INFO - Navigating to: Bedroom Area (-8.0, -0.25)
+2026-01-15 20:57:54,141 - INFO - Navigating to: North Central (0.0, 2.0)
+2026-01-15 20:58:21,257 - INFO - Navigating to: Fitness Area (2.0, 2.0)
+2026-01-15 20:58:30,300 - INFO - Navigating to: Return Center (0.5, 0.5)
+2026-01-15 20:58:53,096 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 20:58:53,097 - INFO -   Visited: Start Position at (0.0, 0.0)
+2026-01-15 20:58:53,097 - INFO -   Visited: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 20:58:53,097 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 20:58:53,097 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 20:58:53,097 - INFO -   Visited: West Hallway at (-2.5, -1.5)
+2026-01-15 20:58:53,097 - INFO -   Visited: Southwest Corner at (-5.0, -4.0)
+2026-01-15 20:58:53,097 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 20:58:53,097 - INFO -   Visited: Bedroom Area at (-8.0, -0.25)
+2026-01-15 20:58:53,097 - INFO -   Visited: North Central at (0.0, 2.0)
+2026-01-15 20:58:53,097 - INFO -   Visited: Fitness Area at (2.0, 2.0)
+2026-01-15 20:58:53,097 - INFO -   Visited: Return Center at (0.5, 0.5)
+2026-01-15 20:58:53,097 - INFO - Returning to start position...
+2026-01-15 20:59:33,926 - INFO - Return navigation result: NavigationResult.FAILED (robot may already be at start)
+2026-01-15 20:59:33,926 - INFO - PATROL MISSION COMPLETE
+2026-01-15 21:35:19,326 - INFO - ============================================================
+2026-01-15 21:35:19,327 - INFO - PATROL ROBOT STARTED
+2026-01-15 21:35:19,327 - INFO - ============================================================
+2026-01-15 21:35:19,327 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 21:35:19,377 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 21:35:23,435 - INFO - Nav2 stack is active and ready
+2026-01-15 21:35:23,435 - INFO - Added waypoint: Start Position at (0.0, 0.0)
+2026-01-15 21:35:23,435 - INFO - Added waypoint: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 21:35:23,435 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 21:35:23,435 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 21:35:23,436 - INFO - Added waypoint: West Hallway at (-2.5, -1.5)
+2026-01-15 21:35:23,438 - INFO - Added waypoint: Southwest Corner at (-5.0, -4.0)
+2026-01-15 21:35:23,440 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 21:35:23,441 - INFO - Added waypoint: Bedroom Area at (-8.0, -0.25)
+2026-01-15 21:35:23,442 - INFO - Added waypoint: North Central at (0.0, 2.0)
+2026-01-15 21:35:23,443 - INFO - Added waypoint: Fitness Area at (2.0, 2.0)
+2026-01-15 21:35:23,443 - INFO - Added waypoint: Return Center at (0.5, 0.5)
+2026-01-15 21:35:23,443 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 21:35:27,168 - INFO - Navigating to: Kitchen Entrance (4.0, 0.0)
+2026-01-15 21:35:45,846 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 21:36:04,528 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 21:38:00,200 - INFO - Navigating to: West Hallway (-2.5, -1.5)
+2026-01-15 21:38:45,991 - INFO - Navigating to: Southwest Corner (-5.0, -4.0)
+2026-01-15 21:39:17,917 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 21:39:52,249 - INFO - Navigating to: Bedroom Area (-8.0, -0.25)
+2026-01-15 21:40:27,205 - INFO - Navigating to: North Central (0.0, 2.0)
+2026-01-15 21:40:53,708 - INFO - Navigating to: Fitness Area (2.0, 2.0)
+2026-01-15 21:41:29,252 - INFO - Navigating to: Return Center (0.5, 0.5)
+2026-01-15 21:41:55,079 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 21:41:55,079 - INFO -   Visited: Start Position at (0.0, 0.0)
+2026-01-15 21:41:55,080 - INFO -   Visited: Kitchen Entrance at (4.0, 0.0)
+2026-01-15 21:41:55,080 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 21:41:55,080 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 21:41:55,080 - INFO -   Visited: West Hallway at (-2.5, -1.5)
+2026-01-15 21:41:55,080 - INFO -   Visited: Southwest Corner at (-5.0, -4.0)
+2026-01-15 21:41:55,080 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 21:41:55,080 - INFO -   Visited: Bedroom Area at (-8.0, -0.25)
+2026-01-15 21:41:55,080 - INFO -   Visited: North Central at (0.0, 2.0)
+2026-01-15 21:41:55,080 - INFO -   Visited: Fitness Area at (2.0, 2.0)
+2026-01-15 21:41:55,080 - INFO -   Visited: Return Center at (0.5, 0.5)
+2026-01-15 21:41:55,080 - INFO - Returning to start position...
+2026-01-15 21:42:29,246 - INFO - Return navigation result: NavigationResult.FAILED (robot may already be at start)
+2026-01-15 21:42:29,247 - INFO - PATROL MISSION COMPLETE
+2026-01-15 21:44:17,721 - INFO - ============================================================
+2026-01-15 21:44:17,721 - INFO - PATROL ROBOT STARTED
+2026-01-15 21:44:17,721 - INFO - ============================================================
+2026-01-15 21:44:17,721 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 21:44:17,774 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 21:44:25,590 - INFO - Nav2 stack is active and ready
+2026-01-15 21:44:25,591 - INFO - Added waypoint: Start at (0.0, 0.0)
+2026-01-15 21:44:25,591 - INFO - Added waypoint: Kitchen East at (4.0, 0.0)
+2026-01-15 21:44:25,591 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 21:44:25,591 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 21:44:25,592 - INFO - Added waypoint: West Junction at (-2.5, -1.5)
+2026-01-15 21:44:25,594 - INFO - Added waypoint: Southwest Room at (-5.0, -4.0)
+2026-01-15 21:44:25,598 - INFO - Added waypoint: Bedroom at (-8.0, -0.25)
+2026-01-15 21:44:25,600 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 21:44:25,603 - INFO - Added waypoint: Return at (0.5, 0.5)
+2026-01-15 21:44:25,604 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 21:44:29,338 - INFO - Navigating to: Kitchen East (4.0, 0.0)
+2026-01-15 21:44:40,779 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 21:44:52,218 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 21:45:16,306 - INFO - Navigating to: West Junction (-2.5, -1.5)
+2026-01-15 21:45:34,373 - INFO - Navigating to: Southwest Room (-5.0, -4.0)
+2026-01-15 21:46:06,895 - INFO - Navigating to: Bedroom (-8.0, -0.25)
+2026-01-15 21:46:30,394 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 21:46:46,656 - INFO - Navigating to: Return (0.5, 0.5)
+2026-01-15 21:47:02,818 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 21:47:02,818 - INFO -   Visited: Start at (0.0, 0.0)
+2026-01-15 21:47:02,819 - INFO -   Visited: Kitchen East at (4.0, 0.0)
+2026-01-15 21:47:02,819 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 21:47:02,819 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 21:47:02,819 - INFO -   Visited: West Junction at (-2.5, -1.5)
+2026-01-15 21:47:02,819 - INFO -   Visited: Southwest Room at (-5.0, -4.0)
+2026-01-15 21:47:02,819 - INFO -   Visited: Bedroom at (-8.0, -0.25)
+2026-01-15 21:47:02,819 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 21:47:02,819 - INFO -   Visited: Return at (0.5, 0.5)
+2026-01-15 21:47:02,819 - INFO - Returning to start position...
+2026-01-15 21:47:12,889 - INFO - Returned to start position
+2026-01-15 21:47:12,891 - INFO - PATROL MISSION COMPLETE
+2026-01-15 22:28:24,109 - INFO - ============================================================
+2026-01-15 22:28:24,110 - INFO - PATROL ROBOT STARTED
+2026-01-15 22:28:24,111 - INFO - ============================================================
+2026-01-15 22:28:24,113 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 22:28:24,181 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 22:28:28,228 - INFO - Nav2 stack is active and ready
+2026-01-15 22:28:28,229 - INFO - Added waypoint: Start at (0.0, 0.0)
+2026-01-15 22:28:28,229 - INFO - Added waypoint: Kitchen East at (4.0, 0.0)
+2026-01-15 22:28:28,229 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 22:28:28,229 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 22:28:28,230 - INFO - Added waypoint: West Junction at (-2.5, -1.5)
+2026-01-15 22:28:28,230 - INFO - Added waypoint: Southwest Room at (-5.0, -4.0)
+2026-01-15 22:28:28,230 - INFO - Added waypoint: Bedroom at (-8.0, -0.25)
+2026-01-15 22:28:28,231 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 22:28:28,231 - INFO - Added waypoint: Return at (0.5, 0.5)
+2026-01-15 22:28:28,231 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 22:28:31,962 - INFO - Navigating to: Kitchen East (4.0, 0.0)
+2026-01-15 22:28:48,235 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 22:29:03,916 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 22:29:43,084 - INFO - Navigating to: West Junction (-2.5, -1.5)
+2026-01-15 22:30:09,634 - INFO - Navigating to: Southwest Room (-5.0, -4.0)
+2026-01-15 22:30:42,786 - INFO - Navigating to: Bedroom (-8.0, -0.25)
+2026-01-15 22:32:18,020 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 22:32:39,099 - INFO - Navigating to: Return (0.5, 0.5)
+2026-01-15 22:32:59,506 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 22:32:59,506 - INFO -   Visited: Start at (0.0, 0.0)
+2026-01-15 22:32:59,506 - INFO -   Visited: Kitchen East at (4.0, 0.0)
+2026-01-15 22:32:59,506 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 22:32:59,506 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 22:32:59,506 - INFO -   Visited: West Junction at (-2.5, -1.5)
+2026-01-15 22:32:59,506 - INFO -   Visited: Southwest Room at (-5.0, -4.0)
+2026-01-15 22:32:59,506 - INFO -   Visited: Bedroom at (-8.0, -0.25)
+2026-01-15 22:32:59,506 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 22:32:59,506 - INFO -   Visited: Return at (0.5, 0.5)
+2026-01-15 22:32:59,506 - INFO - Returning to start position...
+2026-01-15 22:33:51,789 - INFO - Return navigation result: NavigationResult.FAILED (robot may already be at start)
+2026-01-15 22:33:51,789 - INFO - PATROL MISSION COMPLETE
+2026-01-15 23:33:02,916 - INFO - ============================================================
+2026-01-15 23:33:02,916 - INFO - PATROL ROBOT STARTED
+2026-01-15 23:33:02,916 - INFO - ============================================================
+2026-01-15 23:33:02,916 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 23:33:02,996 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 23:33:07,134 - INFO - Nav2 stack is active and ready
+2026-01-15 23:33:07,138 - INFO - Added waypoint: Start at (0.0, 0.0)
+2026-01-15 23:33:07,141 - INFO - Added waypoint: Kitchen East at (4.0, 0.0)
+2026-01-15 23:33:07,143 - INFO - Added waypoint: Kitchen Corner at (7.0, -2.5)
+2026-01-15 23:33:07,143 - INFO - Added waypoint: South Entrance at (0.0, -4.0)
+2026-01-15 23:33:07,144 - INFO - Added waypoint: West Junction at (-2.5, -1.5)
+2026-01-15 23:33:07,145 - INFO - Added waypoint: Southwest Room at (-5.0, -4.0)
+2026-01-15 23:33:07,145 - INFO - Added waypoint: Bedroom at (-8.0, -0.25)
+2026-01-15 23:33:07,145 - INFO - Added waypoint: West Return at (-2.5, -1.5)
+2026-01-15 23:33:07,145 - INFO - Added waypoint: Return at (0.5, 0.5)
+2026-01-15 23:33:07,145 - INFO - Starting Patrol Cycle 1/1
+2026-01-15 23:33:11,563 - INFO - Navigating to: Kitchen East (4.0, 0.0)
+2026-01-15 23:33:24,821 - INFO - Navigating to: Kitchen Corner (7.0, -2.5)
+2026-01-15 23:33:36,882 - INFO - Navigating to: South Entrance (0.0, -4.0)
+2026-01-15 23:34:10,617 - INFO - Navigating to: West Junction (-2.5, -1.5)
+2026-01-15 23:34:37,663 - INFO - Navigating to: Southwest Room (-5.0, -4.0)
+2026-01-15 23:35:17,325 - INFO - Navigating to: Bedroom (-8.0, -0.25)
+2026-01-15 23:37:15,463 - INFO - Navigating to: West Return (-2.5, -1.5)
+2026-01-15 23:37:31,104 - INFO - Navigating to: Return (0.5, 0.5)
+2026-01-15 23:37:43,061 - INFO - Patrol Cycle 1 COMPLETED
+2026-01-15 23:37:43,061 - INFO -   Visited: Start at (0.0, 0.0)
+2026-01-15 23:37:43,061 - INFO -   Visited: Kitchen East at (4.0, 0.0)
+2026-01-15 23:37:43,061 - INFO -   Visited: Kitchen Corner at (7.0, -2.5)
+2026-01-15 23:37:43,061 - INFO -   Visited: South Entrance at (0.0, -4.0)
+2026-01-15 23:37:43,061 - INFO -   Visited: West Junction at (-2.5, -1.5)
+2026-01-15 23:37:43,084 - INFO -   Visited: Southwest Room at (-5.0, -4.0)
+2026-01-15 23:37:43,084 - INFO -   Visited: Bedroom at (-8.0, -0.25)
+2026-01-15 23:37:43,084 - INFO -   Visited: West Return at (-2.5, -1.5)
+2026-01-15 23:37:43,084 - INFO -   Visited: Return at (0.5, 0.5)
+2026-01-15 23:37:43,085 - INFO - Returning to start position...
+2026-01-15 23:37:54,353 - INFO - Returned to start position
+2026-01-15 23:37:54,353 - INFO - PATROL MISSION COMPLETE
