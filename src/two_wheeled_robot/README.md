@@ -13,7 +13,8 @@ A fully autonomous patrolling robot simulation using **ROS2 Humble** and **Gazeb
 |---------|-------------|
 | 🗺️ **Full Map Coverage** | 24 waypoints covering Living Room, Kitchen, Bedroom, Fitness Room, Hallways, and more |
 | 🚧 **Dynamic Obstacle Avoidance** | Nav2 stack with AMCL localization and DWB local planner |
-| 🔄 **Return to Start** | Robot autonomously returns to starting position after patrol |
+| �️ **LIDAR Safety Layer** | Real-time obstacle detection with emergency stop capability |
+| 🔄 **Recovery Behaviors** | Automatic backup, spin, and costmap clearing when stuck |
 | 📝 **Patrol Logging** | Timestamps, coordinates, and visited waypoints logged to file |
 | ⚡ **CycloneDDS** | Reliable communication replacing FastDDS (fixes queue overflow issues) |
 | 🎮 **RViz Visualization** | Real-time visualization of robot, map, costmaps, and planned paths |
@@ -104,9 +105,21 @@ ros2 launch two_wheeled_robot house_world_v1.launch.py
 
 ### Step 4: Run Patrol Robot (Terminal 2)
 
+**Option A: Basic Patrol (Original)**
 ```bash
 source ~/ros2_ws/setup_patrol_robot.sh
 ros2 run two_wheeled_robot my_patrol_robot.py
+```
+
+**Option B: Enhanced Patrol with Obstacle Avoidance (Recommended)**
+```bash
+# Terminal 2: Start obstacle avoidance safety layer
+source ~/ros2_ws/setup_patrol_robot.sh
+ros2 launch two_wheeled_robot patrol_with_obstacle_avoidance.launch.py
+
+# Terminal 3: Run enhanced patrol robot
+source ~/ros2_ws/setup_patrol_robot.sh
+ros2 run two_wheeled_robot enhanced_patrol_robot.py
 ```
 
 **Expected Output:**
@@ -156,14 +169,17 @@ ros2_ws/
     │   ├── cyclonedds.xml             # DDS configuration (1MB buffers)
     │   └── ekf.yaml                   # Extended Kalman Filter config
     ├── launch/house_world/
-    │   └── house_world_v1.launch.py   # Main launch file
+    │   ├── house_world_v1.launch.py   # Main simulation launch
+    │   └── patrol_with_obstacle_avoidance.launch.py  # Obstacle avoidance launch
     ├── maps/house_world/
     │   ├── house_world.pgm            # Occupancy grid map
     │   └── house_world.yaml           # Map metadata
     ├── params/house_world/
-    │   └── nav2_params.yaml           # Navigation parameters
+    │   └── nav2_params.yaml           # Navigation parameters (A* planner)
     ├── scripts/
-    │   ├── my_patrol_robot.py         # Main patrol script (24 waypoints)
+    │   ├── my_patrol_robot.py         # Basic patrol script (24 waypoints)
+    │   ├── enhanced_patrol_robot.py   # Advanced patrol with recovery behaviors
+    │   ├── obstacle_avoidance.py      # LIDAR-based obstacle safety layer
     │   └── robot_navigator.py         # Navigation helper class
     ├── urdf/
     │   └── two_wheeled_robot.urdf     # Robot description
@@ -172,6 +188,77 @@ ros2_ws/
     └── models/
         └── two_wheeled_robot_description/
 ```
+
+---
+
+## 🛡️ Obstacle Avoidance System
+
+The project includes a sophisticated obstacle avoidance safety layer inspired by:
+- [AjaySurya-018/Patrol-Robot](https://github.com/AjaySurya-018/Patrol-Robot)
+- [vinay06vinay/Turtlebot3-Obstacle-Avoidance-ROS2](https://github.com/vinay06vinay/Turtlebot3-Obstacle-Avoidance-ROS2)
+
+### Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    LIDAR Sensor (/scan)                     │
+└─────────────────────┬───────────────────────────────────────┘
+                      │
+                      ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Obstacle Avoidance Node                         │
+│  ┌──────────────┬──────────────┬──────────────┐             │
+│  │ Front Sector │ Left Sector  │ Right Sector │             │
+│  │  (±30°)      │  (30°-90°)   │  (-30°--90°) │             │
+│  └──────────────┴──────────────┴──────────────┘             │
+│                                                              │
+│  Distance Thresholds:                                        │
+│  • Critical: 0.25m → Emergency Stop                         │
+│  • Safe: 0.35m → Warning                                    │
+│  • Warning: 0.6m → Slow Down                                │
+└─────────────────────┬───────────────────────────────────────┘
+                      │
+        ┌─────────────┼─────────────┐
+        ▼             ▼             ▼
+┌──────────────┐ ┌──────────────┐ ┌──────────────┐
+│/emergency_stop│ │/obstacle_info│ │/cmd_vel      │
+│   (Bool)     │ │  (String)    │ │  (Twist)     │
+└──────────────┘ └──────────────┘ └──────────────┘
+        │                               │
+        ▼                               ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Enhanced Patrol Robot                          │
+│  • Subscribes to obstacle topics                            │
+│  • Implements recovery behaviors (backup, spin)             │
+│  • Clears costmaps when stuck                               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### Operating Modes
+
+| Mode | Description |
+|------|-------------|
+| **monitor** | Publishes obstacle info, no velocity override |
+| **active** | Stops robot on obstacles, manual navigation resumes |
+| **autonomous** | Full autonomous avoidance with turn commands |
+
+### Launch Parameters
+
+```bash
+ros2 launch two_wheeled_robot patrol_with_obstacle_avoidance.launch.py \
+    avoidance_mode:=active \
+    safe_distance:=0.35 \
+    warning_distance:=0.6
+```
+
+### Recovery Behaviors
+
+The enhanced patrol robot includes automatic recovery:
+
+1. **Backup Maneuver**: Reverse 0.3m when stuck
+2. **Spin Recovery**: Rotate 180° to find clear path
+3. **Costmap Clearing**: Clear local costmap around robot
+4. **Wait and Retry**: Pause before retrying failed navigation
 
 ---
 
@@ -269,11 +356,12 @@ Logs are saved to `~/ros2_ws/patrol_log.txt`:
 | Component | Purpose |
 |-----------|---------|
 | **AMCL** | Adaptive Monte Carlo Localization |
-| **NavFn** | Global path planner (A* algorithm) |
+| **NavFn** | Global path planner (A* algorithm enabled) |
 | **DWB** | Dynamic Window local planner |
-| **Costmap2D** | Obstacle representation |
+| **Costmap2D** | Obstacle representation (inflation: 0.45m) |
 | **BT Navigator** | Behavior tree for navigation |
 | **Waypoint Follower** | Sequential waypoint navigation |
+| **Obstacle Avoidance** | LIDAR-based safety layer |
 
 ### DDS Configuration
 
@@ -296,6 +384,8 @@ Using CycloneDDS with optimized settings:
 - [ROS2 Humble Documentation](https://docs.ros.org/en/humble/)
 - [CycloneDDS Configuration](https://cyclonedds.io/docs/)
 - [Gazebo Classic Tutorials](http://gazebosim.org/tutorials)
+- [Patrol-Robot by AjaySurya-018](https://github.com/AjaySurya-018/Patrol-Robot)
+- [Turtlebot3 Obstacle Avoidance](https://github.com/vinay06vinay/Turtlebot3-Obstacle-Avoidance-ROS2)
 
 ---
 

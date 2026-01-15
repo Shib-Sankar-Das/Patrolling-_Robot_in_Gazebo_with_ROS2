@@ -214,7 +214,7 @@ def generate_launch_description():
 
   # Launch the ROS 2 Navigation Stack (with delay to wait for robot spawn)
   start_ros2_navigation_cmd = TimerAction(
-    period=15.0,  # Wait 15 seconds for robot spawn + EKF to fully stabilize
+    period=20.0,  # Wait 20 seconds for robot spawn + EKF to fully stabilize
     actions=[IncludeLaunchDescription(
       PythonLaunchDescriptionSource(os.path.join(nav2_launch_dir, 'bringup_launch.py')),
       launch_arguments = {'namespace': namespace,

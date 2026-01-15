@@ -55,6 +55,8 @@ install(PROGRAMS
   scripts/navigate_to_charging_dock_v2.py
   scripts/transforms/map_to_base_link_transform.py
   scripts/my_patrol_robot.py
+  scripts/obstacle_avoidance.py
+  scripts/enhanced_patrol_robot.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

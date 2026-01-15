@@ -1,0 +1,847 @@
+2026-01-15 13:47:44,478 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 13:47:44,555 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 13:47:48,603 - INFO - Nav2 stack is active and ready
+2026-01-15 13:47:48,603 - INFO - Starting patrol mission
+2026-01-15 13:47:48,604 - INFO - ============================================================
+2026-01-15 13:47:48,605 - INFO - ENHANCED PATROL ROBOT STARTING
+2026-01-15 13:47:48,605 - INFO - Waypoints: 21, Cycles: 1
+2026-01-15 13:47:48,605 - INFO - ============================================================
+2026-01-15 13:47:48,606 - INFO - 
+--- Starting Patrol Cycle 1/1 ---
+2026-01-15 13:47:49,610 - INFO - Navigating to waypoint 1/21: Central Hall (0.5, 0.0)
+2026-01-15 13:47:50,824 - INFO - Reached waypoint: Central Hall
+2026-01-15 13:47:50,824 - INFO - Pausing at Central Hall for 2.0s
+2026-01-15 13:47:52,826 - INFO - Navigating to waypoint 2/21: Central Hall North (0.5, 1.5)
+2026-01-15 13:48:00,564 - INFO - Reached waypoint: Central Hall North
+2026-01-15 13:48:00,565 - INFO - Pausing at Central Hall North for 2.0s
+2026-01-15 13:48:02,567 - INFO - Navigating to waypoint 3/21: Living Room Center (1.5, -1.0)
+2026-01-15 13:48:11,922 - INFO - Reached waypoint: Living Room Center
+2026-01-15 13:48:11,923 - INFO - Pausing at Living Room Center for 2.0s
+2026-01-15 13:48:13,925 - INFO - Navigating to waypoint 4/21: Living Room East (3.0, -0.5)
+2026-01-15 13:48:18,791 - INFO - Reached waypoint: Living Room East
+2026-01-15 13:48:18,792 - INFO - Pausing at Living Room East for 2.0s
+2026-01-15 13:48:20,795 - INFO - Navigating to waypoint 5/21: Kitchen Entrance (4.5, 0.0)
+2026-01-15 13:48:25,238 - INFO - Reached waypoint: Kitchen Entrance
+2026-01-15 13:48:25,238 - INFO - Pausing at Kitchen Entrance for 2.0s
+2026-01-15 13:48:27,240 - INFO - Navigating to waypoint 6/21: Kitchen Center (6.0, 0.5)
+2026-01-15 13:48:54,659 - INFO - Reached waypoint: Kitchen Center
+2026-01-15 13:48:54,660 - INFO - Pausing at Kitchen Center for 2.0s
+2026-01-15 13:48:56,662 - INFO - Navigating to waypoint 7/21: Kitchen South (6.0, -2.0)
+2026-01-15 13:49:29,127 - WARNING - Robot may be stuck navigating to Kitchen South
+2026-01-15 13:49:29,127 - WARNING - Executing recovery behavior (attempt 1)
+2026-01-15 13:49:30,135 - INFO - Clearing costmaps...
+2026-01-15 13:49:31,153 - INFO - Executing backup maneuver for 1.5s
+2026-01-15 13:49:33,162 - INFO - Executing spin maneuver for 2.0s
+2026-01-15 13:49:36,679 - INFO - Recovery behavior completed
+2026-01-15 13:49:44,961 - INFO - Reached waypoint: Kitchen South
+2026-01-15 13:49:44,961 - INFO - Pausing at Kitchen South for 2.0s
+2026-01-15 13:49:46,964 - INFO - Navigating to waypoint 8/21: Main Entrance (4.5, -3.5)
+2026-01-15 13:50:01,104 - INFO - Reached waypoint: Main Entrance
+2026-01-15 13:50:01,104 - INFO - Pausing at Main Entrance for 2.0s
+2026-01-15 13:50:03,106 - INFO - Navigating to waypoint 9/21: Entrance Hallway (2.5, -3.5)
+2026-01-15 13:50:29,725 - INFO - Reached waypoint: Entrance Hallway
+2026-01-15 13:50:29,726 - INFO - Pausing at Entrance Hallway for 2.0s
+2026-01-15 13:50:31,728 - INFO - Navigating to waypoint 10/21: South Hall (0.0, -3.0)
+2026-01-15 13:51:04,023 - INFO - Reached waypoint: South Hall
+2026-01-15 13:51:04,024 - INFO - Pausing at South Hall for 2.0s
+2026-01-15 13:51:06,026 - INFO - Navigating to waypoint 11/21: Fitness Room (2.5, 2.5)
+2026-01-15 13:52:46,504 - INFO - Reached waypoint: Fitness Room
+2026-01-15 13:52:46,505 - INFO - Pausing at Fitness Room for 2.0s
+2026-01-15 13:52:48,507 - INFO - Navigating to waypoint 12/21: Fitness Area (1.5, 3.0)
+2026-01-15 13:53:37,351 - INFO - Reached waypoint: Fitness Area
+2026-01-15 13:53:37,353 - INFO - Pausing at Fitness Area for 2.0s
+2026-01-15 13:53:39,356 - INFO - Navigating to waypoint 13/21: Bedroom Door (-2.5, 0.5)
+2026-01-15 13:53:45,010 - ERROR - Failed to reach Bedroom Door - result: NavigationResult.FAILED
+2026-01-15 13:53:45,010 - WARNING - Failed waypoint: Bedroom Door - continuing to next
+2026-01-15 13:53:45,010 - INFO - Navigating to waypoint 14/21: Bedroom Center (-5.0, 1.0)
+2026-01-15 13:56:50,781 - INFO - Patrol interrupted by user
+2026-01-15 13:56:50,792 - INFO - 
+============================================================
+PATROL MISSION SUMMARY
+============================================================
+Status: navigating_to_waypoint
+Duration: 542.2 seconds (9.0 minutes)
+Waypoints visited: 12
+Recovery attempts: 1
+Failed waypoints: 1
+Failed locations: ['Bedroom Door']
+Log file: /home/shib/ros2_ws/enhanced_patrol_log.txt
+============================================================
+2026-01-15 13:58:52,377 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 13:58:52,452 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 13:58:56,496 - INFO - Nav2 stack is active and ready
+2026-01-15 13:58:56,497 - INFO - Starting patrol mission
+2026-01-15 13:58:56,498 - INFO - ============================================================
+2026-01-15 13:58:56,499 - INFO - ENHANCED PATROL ROBOT STARTING
+2026-01-15 13:58:56,500 - INFO - Waypoints: 21, Cycles: 1
+2026-01-15 13:58:56,500 - INFO - ============================================================
+2026-01-15 13:58:56,501 - INFO - 
+--- Starting Patrol Cycle 1/1 ---
+2026-01-15 13:58:57,512 - INFO - Navigating to waypoint 1/21: Central Hall (0.5, 0.0)
+2026-01-15 13:58:58,735 - INFO - Reached waypoint: Central Hall
+2026-01-15 13:58:58,735 - INFO - Pausing at Central Hall for 2.0s
+2026-01-15 13:59:00,737 - INFO - Navigating to waypoint 2/21: Central Hall North (0.5, 1.5)
+2026-01-15 13:59:08,655 - INFO - Reached waypoint: Central Hall North
+2026-01-15 13:59:08,655 - INFO - Pausing at Central Hall North for 2.0s
+2026-01-15 13:59:10,658 - INFO - Navigating to waypoint 3/21: Living Room Center (1.5, -1.0)
+2026-01-15 13:59:21,929 - INFO - Reached waypoint: Living Room Center
+2026-01-15 13:59:21,930 - INFO - Pausing at Living Room Center for 2.0s
+2026-01-15 13:59:23,932 - INFO - Navigating to waypoint 4/21: Living Room East (3.0, -0.5)
+2026-01-15 13:59:28,517 - INFO - Reached waypoint: Living Room East
+2026-01-15 13:59:28,518 - INFO - Pausing at Living Room East for 2.0s
+2026-01-15 13:59:30,520 - INFO - Navigating to waypoint 5/21: Kitchen Entrance (4.5, 0.0)
+2026-01-15 13:59:35,103 - INFO - Reached waypoint: Kitchen Entrance
+2026-01-15 13:59:35,103 - INFO - Pausing at Kitchen Entrance for 2.0s
+2026-01-15 13:59:37,104 - INFO - Navigating to waypoint 6/21: Kitchen Center (6.0, 0.5)
+2026-01-15 13:59:56,664 - WARNING - Emergency stop activated!
+2026-01-15 13:59:56,666 - WARNING - Emergency stop during navigation to Kitchen Center
+2026-01-15 13:59:57,172 - WARNING - Executing recovery behavior (attempt 1)
+2026-01-15 13:59:58,175 - INFO - Clearing costmaps...
+2026-01-15 13:59:59,196 - INFO - Executing backup maneuver for 1.5s
+2026-01-15 14:00:01,202 - INFO - Executing spin maneuver for 2.0s
+2026-01-15 14:00:04,714 - INFO - Recovery behavior completed
+2026-01-15 14:00:04,715 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:00:05,217 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:00:05,718 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:00:06,222 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:00:06,724 - WARNING - Emergency stop activated!
+2026-01-15 14:00:06,725 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:00:07,228 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.41m,right:0.21m,clear:XLX
+2026-01-15 14:00:07,730 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.41m,right:0.21m,clear:XLX
+2026-01-15 14:00:08,233 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.41m,right:0.21m,clear:XLX
+2026-01-15 14:00:08,736 - WARNING - Emergency stop activated!
+2026-01-15 14:00:08,737 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.41m,right:0.21m,clear:XLX
+2026-01-15 14:00:09,240 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:09,742 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:10,244 - WARNING - Emergency stop activated!
+2026-01-15 14:00:10,246 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:10,749 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:11,255 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:11,757 - WARNING - Emergency stop activated!
+2026-01-15 14:00:11,758 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:12,261 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:12,765 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:13,266 - WARNING - Emergency stop activated!
+2026-01-15 14:00:13,266 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:13,769 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:14,272 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:14,774 - WARNING - Emergency stop activated!
+2026-01-15 14:00:14,776 - WARNING - Failed waypoint: Kitchen Center - continuing to next
+2026-01-15 14:00:14,777 - INFO - Navigating to waypoint 7/21: Kitchen South (6.0, -2.0)
+2026-01-15 14:00:14,780 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:00:14,781 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:15,284 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:15,786 - WARNING - Emergency stop activated!
+2026-01-15 14:00:15,787 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:16,290 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:16,793 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:17,295 - WARNING - Emergency stop activated!
+2026-01-15 14:00:17,296 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:17,798 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:18,300 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:18,802 - WARNING - Emergency stop activated!
+2026-01-15 14:00:18,804 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:19,306 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:19,810 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:20,312 - WARNING - Emergency stop activated!
+2026-01-15 14:00:20,312 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:20,815 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:21,317 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:21,819 - WARNING - Emergency stop activated!
+2026-01-15 14:00:21,820 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:22,322 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:22,827 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:23,328 - WARNING - Emergency stop activated!
+2026-01-15 14:00:23,329 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:23,830 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:24,332 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:24,834 - WARNING - Emergency stop activated!
+2026-01-15 14:00:24,836 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:25,338 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:00:25,841 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:00:26,343 - WARNING - Emergency stop activated!
+2026-01-15 14:00:26,344 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:00:26,846 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:27,349 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:27,850 - WARNING - Emergency stop activated!
+2026-01-15 14:00:27,850 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:28,352 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:28,854 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:29,356 - WARNING - Emergency stop activated!
+2026-01-15 14:00:29,357 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:29,859 - WARNING - Failed waypoint: Kitchen South - continuing to next
+2026-01-15 14:00:29,860 - INFO - Navigating to waypoint 8/21: Main Entrance (4.5, -3.5)
+2026-01-15 14:00:29,863 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:00:29,864 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:30,366 - WARNING - Emergency stop activated!
+2026-01-15 14:00:30,367 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:30,869 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:00:31,371 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:00:31,872 - WARNING - Emergency stop activated!
+2026-01-15 14:00:31,874 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:00:32,377 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:32,879 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:33,380 - WARNING - Emergency stop activated!
+2026-01-15 14:00:33,382 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:33,884 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:34,387 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:34,889 - WARNING - Emergency stop activated!
+2026-01-15 14:00:34,889 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:35,391 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:35,897 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:36,399 - WARNING - Emergency stop activated!
+2026-01-15 14:00:36,399 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:36,900 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:37,404 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:37,906 - WARNING - Emergency stop activated!
+2026-01-15 14:00:37,906 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:38,408 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:38,910 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:39,411 - WARNING - Emergency stop activated!
+2026-01-15 14:00:39,413 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:39,915 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:40,419 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:40,920 - WARNING - Emergency stop activated!
+2026-01-15 14:00:40,920 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:41,422 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:41,928 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:42,429 - WARNING - Emergency stop activated!
+2026-01-15 14:00:42,430 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:42,931 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:43,433 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:43,936 - WARNING - Emergency stop activated!
+2026-01-15 14:00:43,937 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:44,439 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:44,943 - WARNING - Failed waypoint: Main Entrance - continuing to next
+2026-01-15 14:00:44,944 - INFO - Navigating to waypoint 9/21: Entrance Hallway (2.5, -3.5)
+2026-01-15 14:00:44,946 - WARNING - Emergency stop activated!
+2026-01-15 14:00:44,946 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:00:44,946 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:00:45,447 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:45,951 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:46,454 - WARNING - Emergency stop activated!
+2026-01-15 14:00:46,455 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:46,956 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:47,461 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:47,962 - WARNING - Emergency stop activated!
+2026-01-15 14:00:47,962 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:48,463 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:48,967 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:49,469 - WARNING - Emergency stop activated!
+2026-01-15 14:00:49,470 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:49,972 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:50,475 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:50,976 - WARNING - Emergency stop activated!
+2026-01-15 14:00:50,979 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:51,481 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:51,984 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:52,487 - WARNING - Emergency stop activated!
+2026-01-15 14:00:52,489 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:52,993 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:53,496 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:54,001 - WARNING - Emergency stop activated!
+2026-01-15 14:00:54,001 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:54,503 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:55,008 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:55,511 - WARNING - Emergency stop activated!
+2026-01-15 14:00:55,512 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:00:56,014 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:56,517 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:57,020 - WARNING - Emergency stop activated!
+2026-01-15 14:00:57,020 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:00:57,522 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.22m,clear:XLX
+2026-01-15 14:00:58,026 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.22m,clear:XLX
+2026-01-15 14:00:58,528 - WARNING - Emergency stop activated!
+2026-01-15 14:00:58,530 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.22m,clear:XLX
+2026-01-15 14:00:59,035 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:00:59,539 - INFO - Waiting for obstacle to clear... front:0.23m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:00,040 - WARNING - Emergency stop activated!
+2026-01-15 14:01:00,042 - WARNING - Failed waypoint: Entrance Hallway - continuing to next
+2026-01-15 14:01:00,042 - INFO - Navigating to waypoint 10/21: South Hall (0.0, -3.0)
+2026-01-15 14:01:00,045 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:01:00,046 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:00,550 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:01,053 - WARNING - Emergency stop activated!
+2026-01-15 14:01:01,053 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:01,554 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:02,058 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:02,561 - WARNING - Emergency stop activated!
+2026-01-15 14:01:02,563 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:03,067 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:03,573 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:04,075 - WARNING - Emergency stop activated!
+2026-01-15 14:01:04,077 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:04,579 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:05,081 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:05,583 - WARNING - Emergency stop activated!
+2026-01-15 14:01:05,585 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:06,089 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:06,595 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:07,097 - WARNING - Emergency stop activated!
+2026-01-15 14:01:07,097 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:07,600 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:08,105 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:08,607 - WARNING - Emergency stop activated!
+2026-01-15 14:01:08,609 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:09,112 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:09,616 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:10,118 - WARNING - Emergency stop activated!
+2026-01-15 14:01:10,121 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:10,623 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:11,124 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:11,625 - WARNING - Emergency stop activated!
+2026-01-15 14:01:11,625 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:12,127 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:12,631 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:13,133 - WARNING - Emergency stop activated!
+2026-01-15 14:01:13,134 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:13,637 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:14,139 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:14,640 - WARNING - Emergency stop activated!
+2026-01-15 14:01:14,640 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:15,142 - WARNING - Failed waypoint: South Hall - continuing to next
+2026-01-15 14:01:15,143 - INFO - Navigating to waypoint 11/21: Fitness Room (2.5, 2.5)
+2026-01-15 14:01:15,146 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:01:15,146 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:15,648 - WARNING - Emergency stop activated!
+2026-01-15 14:01:15,650 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:16,152 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.22m,clear:XLX
+2026-01-15 14:01:16,656 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.22m,clear:XLX
+2026-01-15 14:01:17,157 - WARNING - Emergency stop activated!
+2026-01-15 14:01:17,157 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.22m,clear:XLX
+2026-01-15 14:01:17,659 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:18,163 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:18,665 - WARNING - Emergency stop activated!
+2026-01-15 14:01:18,667 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:19,169 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:19,671 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:20,172 - WARNING - Emergency stop activated!
+2026-01-15 14:01:20,173 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:20,678 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:21,182 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:21,683 - WARNING - Emergency stop activated!
+2026-01-15 14:01:21,684 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:22,186 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:22,690 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:23,193 - WARNING - Emergency stop activated!
+2026-01-15 14:01:23,194 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:01:23,696 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:24,197 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:24,699 - WARNING - Emergency stop activated!
+2026-01-15 14:01:24,700 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:25,203 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:25,707 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:26,209 - WARNING - Emergency stop activated!
+2026-01-15 14:01:26,211 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:26,713 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:27,215 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:27,716 - WARNING - Emergency stop activated!
+2026-01-15 14:01:27,717 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:28,219 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:28,721 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:29,223 - WARNING - Emergency stop activated!
+2026-01-15 14:01:29,224 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:29,726 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:30,230 - WARNING - Failed waypoint: Fitness Room - continuing to next
+2026-01-15 14:01:30,231 - INFO - Navigating to waypoint 12/21: Fitness Area (1.5, 3.0)
+2026-01-15 14:01:30,234 - WARNING - Emergency stop activated!
+2026-01-15 14:01:30,235 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:01:30,236 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:30,738 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:31,241 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:31,743 - WARNING - Emergency stop activated!
+2026-01-15 14:01:31,744 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:32,246 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:32,751 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:33,254 - WARNING - Emergency stop activated!
+2026-01-15 14:01:33,255 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:01:33,756 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:34,260 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:34,762 - WARNING - Emergency stop activated!
+2026-01-15 14:01:34,764 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:35,266 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:35,769 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:36,270 - WARNING - Emergency stop activated!
+2026-01-15 14:01:36,270 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:36,772 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:37,276 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:37,777 - WARNING - Emergency stop activated!
+2026-01-15 14:01:37,778 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:38,280 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:38,781 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:39,284 - WARNING - Emergency stop activated!
+2026-01-15 14:01:39,286 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:39,789 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:40,294 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:40,795 - WARNING - Emergency stop activated!
+2026-01-15 14:01:40,795 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:01:41,297 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:41,802 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:42,303 - WARNING - Emergency stop activated!
+2026-01-15 14:01:42,305 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:42,808 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:43,311 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:43,813 - WARNING - Emergency stop activated!
+2026-01-15 14:01:43,814 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:44,316 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:44,819 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:45,319 - WARNING - Emergency stop activated!
+2026-01-15 14:01:45,320 - WARNING - Failed waypoint: Fitness Area - continuing to next
+2026-01-15 14:01:45,321 - INFO - Navigating to waypoint 13/21: Bedroom Door (-2.5, 0.5)
+2026-01-15 14:01:45,325 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:01:45,326 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:45,830 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:46,332 - WARNING - Emergency stop activated!
+2026-01-15 14:01:46,334 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:01:46,835 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:47,338 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:47,840 - WARNING - Emergency stop activated!
+2026-01-15 14:01:47,842 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:48,344 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:48,848 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:49,350 - WARNING - Emergency stop activated!
+2026-01-15 14:01:49,351 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:49,854 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:50,356 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:50,857 - WARNING - Emergency stop activated!
+2026-01-15 14:01:50,858 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:01:51,361 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.20m,clear:XLX
+2026-01-15 14:01:51,865 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.20m,clear:XLX
+2026-01-15 14:01:52,368 - WARNING - Emergency stop activated!
+2026-01-15 14:01:52,369 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.20m,clear:XLX
+2026-01-15 14:01:52,872 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.20m,clear:XLX
+2026-01-15 14:01:53,377 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.20m,clear:XLX
+2026-01-15 14:01:53,880 - WARNING - Emergency stop activated!
+2026-01-15 14:01:53,883 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.20m,clear:XLX
+2026-01-15 14:01:54,386 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:54,887 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:55,389 - WARNING - Emergency stop activated!
+2026-01-15 14:01:55,390 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:01:55,891 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:56,394 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:56,896 - WARNING - Emergency stop activated!
+2026-01-15 14:01:56,897 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:57,399 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:57,900 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:58,401 - WARNING - Emergency stop activated!
+2026-01-15 14:01:58,403 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:01:58,905 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.37m,right:0.21m,clear:XLX
+2026-01-15 14:01:59,409 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.37m,right:0.21m,clear:XLX
+2026-01-15 14:01:59,911 - WARNING - Emergency stop activated!
+2026-01-15 14:01:59,911 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.37m,right:0.21m,clear:XLX
+2026-01-15 14:02:00,413 - WARNING - Failed waypoint: Bedroom Door - continuing to next
+2026-01-15 14:02:00,414 - INFO - Navigating to waypoint 14/21: Bedroom Center (-5.0, 1.0)
+2026-01-15 14:02:00,415 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:02:00,415 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:02:00,916 - WARNING - Emergency stop activated!
+2026-01-15 14:02:00,918 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.20m,clear:XLX
+2026-01-15 14:02:01,421 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:01,925 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:02,427 - WARNING - Emergency stop activated!
+2026-01-15 14:02:02,428 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:02,930 - INFO - Waiting for obstacle to clear... front:0.20m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:03,437 - INFO - Waiting for obstacle to clear... front:0.20m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:03,940 - WARNING - Emergency stop activated!
+2026-01-15 14:02:03,942 - INFO - Waiting for obstacle to clear... front:0.20m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:04,444 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:04,948 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:05,449 - WARNING - Emergency stop activated!
+2026-01-15 14:02:05,451 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:05,953 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:06,455 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:06,957 - WARNING - Emergency stop activated!
+2026-01-15 14:02:06,958 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:07,461 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:07,963 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:08,464 - WARNING - Emergency stop activated!
+2026-01-15 14:02:08,466 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:08,968 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:02:09,473 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:02:09,975 - WARNING - Emergency stop activated!
+2026-01-15 14:02:09,976 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:02:10,477 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.37m,right:0.21m,clear:XLX
+2026-01-15 14:02:10,982 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.37m,right:0.21m,clear:XLX
+2026-01-15 14:02:11,484 - WARNING - Emergency stop activated!
+2026-01-15 14:02:11,484 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.37m,right:0.21m,clear:XLX
+2026-01-15 14:02:11,985 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:02:12,490 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:02:12,993 - WARNING - Emergency stop activated!
+2026-01-15 14:02:12,994 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.20m,clear:XLX
+2026-01-15 14:02:13,496 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:14,002 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:14,509 - WARNING - Emergency stop activated!
+2026-01-15 14:02:14,509 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:15,013 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:15,516 - WARNING - Failed waypoint: Bedroom Center - continuing to next
+2026-01-15 14:02:15,516 - INFO - Navigating to waypoint 15/21: Bedroom West (-6.5, 2.0)
+2026-01-15 14:02:15,517 - WARNING - Emergency stop activated!
+2026-01-15 14:02:15,517 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:02:15,517 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:16,019 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:16,523 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:17,025 - WARNING - Emergency stop activated!
+2026-01-15 14:02:17,026 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:17,529 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:02:18,032 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:02:18,534 - WARNING - Emergency stop activated!
+2026-01-15 14:02:18,536 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.38m,right:0.21m,clear:XLX
+2026-01-15 14:02:19,038 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:19,543 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:20,044 - WARNING - Emergency stop activated!
+2026-01-15 14:02:20,046 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:20,548 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:21,049 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:21,550 - WARNING - Emergency stop activated!
+2026-01-15 14:02:21,552 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:22,054 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:02:22,558 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:02:23,060 - WARNING - Emergency stop activated!
+2026-01-15 14:02:23,062 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.40m,right:0.22m,clear:XLX
+2026-01-15 14:02:23,564 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:24,068 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:24,571 - WARNING - Emergency stop activated!
+2026-01-15 14:02:24,574 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.39m,right:0.22m,clear:XLX
+2026-01-15 14:02:25,075 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:25,580 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:26,081 - WARNING - Emergency stop activated!
+2026-01-15 14:02:26,081 - INFO - Waiting for obstacle to clear... front:0.22m,left:0.40m,right:0.21m,clear:XLX
+2026-01-15 14:02:26,583 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:27,086 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:27,587 - WARNING - Emergency stop activated!
+2026-01-15 14:02:27,589 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:28,092 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:28,594 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:29,096 - WARNING - Emergency stop activated!
+2026-01-15 14:02:29,098 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:29,600 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:30,103 - INFO - Waiting for obstacle to clear... front:0.21m,left:0.39m,right:0.21m,clear:XLX
+2026-01-15 14:02:30,174 - INFO - Patrol interrupted by user
+2026-01-15 14:02:30,175 - INFO - 
+============================================================
+PATROL MISSION SUMMARY
+============================================================
+Status: navigating_to_waypoint
+Duration: 213.7 seconds (3.6 minutes)
+Waypoints visited: 5
+Recovery attempts: 1
+Failed waypoints: 9
+Failed locations: ['Kitchen Center', 'Kitchen South', 'Main Entrance', 'Entrance Hallway', 'South Hall', 'Fitness Room', 'Fitness Area', 'Bedroom Door', 'Bedroom Center']
+Log file: /home/shib/ros2_ws/enhanced_patrol_log.txt
+============================================================
+2026-01-15 14:12:43,465 - INFO - Setting initial pose: x=0.0, y=0.0
+2026-01-15 14:12:43,532 - INFO - Waiting for Nav2 stack to activate...
+2026-01-15 14:12:47,588 - INFO - Nav2 stack is active and ready
+2026-01-15 14:12:47,589 - INFO - Starting patrol mission
+2026-01-15 14:12:47,590 - INFO - ============================================================
+2026-01-15 14:12:47,590 - INFO - ENHANCED PATROL ROBOT STARTING
+2026-01-15 14:12:47,590 - INFO - Waypoints: 21, Cycles: 1
+2026-01-15 14:12:47,590 - INFO - ============================================================
+2026-01-15 14:12:47,591 - INFO - 
+--- Starting Patrol Cycle 1/1 ---
+2026-01-15 14:12:48,594 - INFO - Navigating to waypoint 1/21: Central Hall (0.5, 0.0)
+2026-01-15 14:12:49,532 - INFO - Reached waypoint: Central Hall
+2026-01-15 14:12:49,532 - INFO - Pausing at Central Hall for 2.0s
+2026-01-15 14:12:51,534 - INFO - Navigating to waypoint 2/21: Central Hall North (0.5, 1.5)
+2026-01-15 14:12:59,461 - INFO - Reached waypoint: Central Hall North
+2026-01-15 14:12:59,461 - INFO - Pausing at Central Hall North for 2.0s
+2026-01-15 14:13:01,463 - INFO - Navigating to waypoint 3/21: Living Room Center (1.5, -1.0)
+2026-01-15 14:13:12,416 - INFO - Reached waypoint: Living Room Center
+2026-01-15 14:13:12,416 - INFO - Pausing at Living Room Center for 2.0s
+2026-01-15 14:13:14,419 - INFO - Navigating to waypoint 4/21: Living Room East (3.0, -0.5)
+2026-01-15 14:13:18,711 - INFO - Reached waypoint: Living Room East
+2026-01-15 14:13:18,712 - INFO - Pausing at Living Room East for 2.0s
+2026-01-15 14:13:20,714 - INFO - Navigating to waypoint 5/21: Kitchen Entrance (4.5, 0.0)
+2026-01-15 14:13:25,288 - INFO - Reached waypoint: Kitchen Entrance
+2026-01-15 14:13:25,289 - INFO - Pausing at Kitchen Entrance for 2.0s
+2026-01-15 14:13:27,290 - INFO - Navigating to waypoint 6/21: Kitchen Center (6.0, 0.5)
+2026-01-15 14:13:51,925 - INFO - Reached waypoint: Kitchen Center
+2026-01-15 14:13:51,925 - INFO - Pausing at Kitchen Center for 2.0s
+2026-01-15 14:13:53,927 - INFO - Navigating to waypoint 7/21: Kitchen South (6.0, -2.0)
+2026-01-15 14:14:16,523 - INFO - Reached waypoint: Kitchen South
+2026-01-15 14:14:16,524 - INFO - Pausing at Kitchen South for 2.0s
+2026-01-15 14:14:18,526 - INFO - Navigating to waypoint 8/21: Main Entrance (4.5, -3.5)
+2026-01-15 14:14:31,916 - INFO - Reached waypoint: Main Entrance
+2026-01-15 14:14:31,917 - INFO - Pausing at Main Entrance for 2.0s
+2026-01-15 14:14:33,920 - INFO - Navigating to waypoint 9/21: Entrance Hallway (2.5, -3.5)
+2026-01-15 14:14:51,263 - INFO - Reached waypoint: Entrance Hallway
+2026-01-15 14:14:51,264 - INFO - Pausing at Entrance Hallway for 2.0s
+2026-01-15 14:14:53,266 - INFO - Navigating to waypoint 10/21: South Hall (0.0, -3.0)
+2026-01-15 14:15:15,281 - INFO - Reached waypoint: South Hall
+2026-01-15 14:15:15,282 - INFO - Pausing at South Hall for 2.0s
+2026-01-15 14:15:17,285 - INFO - Navigating to waypoint 11/21: Fitness Room (2.5, 2.5)
+2026-01-15 14:15:38,382 - WARNING - Emergency stop activated!
+2026-01-15 14:15:38,383 - WARNING - Emergency stop during navigation to Fitness Room
+2026-01-15 14:15:38,894 - WARNING - Executing recovery behavior (attempt 1)
+2026-01-15 14:15:39,911 - INFO - Clearing costmaps...
+2026-01-15 14:15:40,929 - INFO - Executing backup maneuver for 1.5s
+2026-01-15 14:15:42,933 - INFO - Executing spin maneuver for 2.0s
+2026-01-15 14:15:46,449 - INFO - Recovery behavior completed
+2026-01-15 14:15:46,450 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:15:46,952 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:15:47,453 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:15:47,955 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:15:48,456 - WARNING - Emergency stop activated!
+2026-01-15 14:15:48,457 - INFO - Waiting for obstacle to clear... 
+2026-01-15 14:15:48,960 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:49,461 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:49,965 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:50,467 - WARNING - Emergency stop activated!
+2026-01-15 14:15:50,468 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:50,969 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:15:51,473 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:15:51,974 - WARNING - Emergency stop activated!
+2026-01-15 14:15:51,976 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:15:52,478 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:52,979 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:53,480 - WARNING - Emergency stop activated!
+2026-01-15 14:15:53,480 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:15:53,981 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:15:54,485 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:15:54,986 - WARNING - Emergency stop activated!
+2026-01-15 14:15:54,987 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:15:55,488 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:15:55,990 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:15:56,492 - WARNING - Emergency stop activated!
+2026-01-15 14:15:56,494 - WARNING - Failed waypoint: Fitness Room - continuing to next
+2026-01-15 14:15:56,495 - INFO - Navigating to waypoint 12/21: Fitness Area (1.5, 3.0)
+2026-01-15 14:15:56,497 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:15:56,498 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.16m,clear:XXX
+2026-01-15 14:15:57,000 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.16m,clear:XXX
+2026-01-15 14:15:57,502 - WARNING - Emergency stop activated!
+2026-01-15 14:15:57,503 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.16m,clear:XXX
+2026-01-15 14:15:58,005 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:15:58,507 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:15:59,010 - WARNING - Emergency stop activated!
+2026-01-15 14:15:59,011 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:15:59,513 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:00,017 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:00,518 - WARNING - Emergency stop activated!
+2026-01-15 14:16:00,520 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:01,022 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:01,526 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:02,028 - WARNING - Emergency stop activated!
+2026-01-15 14:16:02,029 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:02,532 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:03,037 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:03,538 - WARNING - Emergency stop activated!
+2026-01-15 14:16:03,538 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:04,040 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:04,543 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:05,045 - WARNING - Emergency stop activated!
+2026-01-15 14:16:05,046 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:05,548 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:06,052 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:06,554 - WARNING - Emergency stop activated!
+2026-01-15 14:16:06,556 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:07,060 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.18m,clear:XXX
+2026-01-15 14:16:07,563 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.18m,clear:XXX
+2026-01-15 14:16:08,064 - WARNING - Emergency stop activated!
+2026-01-15 14:16:08,064 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.18m,clear:XXX
+2026-01-15 14:16:08,566 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.19m,clear:XXX
+2026-01-15 14:16:09,069 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.19m,clear:XXX
+2026-01-15 14:16:09,571 - WARNING - Emergency stop activated!
+2026-01-15 14:16:09,573 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.19m,clear:XXX
+2026-01-15 14:16:10,075 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:10,578 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:11,079 - WARNING - Emergency stop activated!
+2026-01-15 14:16:11,080 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:11,581 - WARNING - Failed waypoint: Fitness Area - continuing to next
+2026-01-15 14:16:11,583 - INFO - Navigating to waypoint 13/21: Bedroom Door (-2.5, 0.5)
+2026-01-15 14:16:11,588 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:16:11,589 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:16:12,092 - WARNING - Emergency stop activated!
+2026-01-15 14:16:12,093 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:16:12,597 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:13,100 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:13,602 - WARNING - Emergency stop activated!
+2026-01-15 14:16:13,602 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:14,104 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:14,606 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:15,107 - WARNING - Emergency stop activated!
+2026-01-15 14:16:15,108 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:15,611 - INFO - Waiting for obstacle to clear... front:0.12m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:16:16,114 - INFO - Waiting for obstacle to clear... front:0.12m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:16:16,616 - WARNING - Emergency stop activated!
+2026-01-15 14:16:16,617 - INFO - Waiting for obstacle to clear... front:0.12m,left:0.17m,right:0.19m,clear:XXX
+2026-01-15 14:16:17,120 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:17,625 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:18,127 - WARNING - Emergency stop activated!
+2026-01-15 14:16:18,128 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:18,630 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:19,133 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:19,636 - WARNING - Emergency stop activated!
+2026-01-15 14:16:19,637 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:20,139 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:20,641 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:21,142 - WARNING - Emergency stop activated!
+2026-01-15 14:16:21,144 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:21,646 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.17m,clear:XXX
+2026-01-15 14:16:22,150 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.17m,clear:XXX
+2026-01-15 14:16:22,652 - WARNING - Emergency stop activated!
+2026-01-15 14:16:22,654 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.17m,clear:XXX
+2026-01-15 14:16:23,156 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:23,660 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:24,162 - WARNING - Emergency stop activated!
+2026-01-15 14:16:24,163 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:24,666 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:16:25,173 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:16:25,676 - WARNING - Emergency stop activated!
+2026-01-15 14:16:25,676 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.15m,right:0.17m,clear:XXX
+2026-01-15 14:16:26,178 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:26,684 - WARNING - Failed waypoint: Bedroom Door - continuing to next
+2026-01-15 14:16:26,685 - INFO - Navigating to waypoint 14/21: Bedroom Center (-5.0, 1.0)
+2026-01-15 14:16:26,688 - WARNING - Emergency stop activated!
+2026-01-15 14:16:26,689 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:16:26,690 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:27,192 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:27,695 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:28,196 - WARNING - Emergency stop activated!
+2026-01-15 14:16:28,196 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:28,698 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:29,200 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:29,702 - WARNING - Emergency stop activated!
+2026-01-15 14:16:29,702 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:30,204 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:30,706 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:31,207 - WARNING - Emergency stop activated!
+2026-01-15 14:16:31,209 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:31,711 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:32,215 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:32,717 - WARNING - Emergency stop activated!
+2026-01-15 14:16:32,717 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:33,218 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:33,721 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:34,224 - WARNING - Emergency stop activated!
+2026-01-15 14:16:34,226 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:34,728 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:35,233 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:35,735 - WARNING - Emergency stop activated!
+2026-01-15 14:16:35,736 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:36,237 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:36,740 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:37,242 - WARNING - Emergency stop activated!
+2026-01-15 14:16:37,243 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:37,745 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:38,248 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:38,750 - WARNING - Emergency stop activated!
+2026-01-15 14:16:38,752 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:39,255 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:39,760 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:40,264 - WARNING - Emergency stop activated!
+2026-01-15 14:16:40,265 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:40,767 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.17m,clear:XXX
+2026-01-15 14:16:41,270 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.17m,clear:XXX
+2026-01-15 14:16:41,772 - WARNING - Emergency stop activated!
+2026-01-15 14:16:41,773 - WARNING - Failed waypoint: Bedroom Center - continuing to next
+2026-01-15 14:16:41,775 - INFO - Navigating to waypoint 15/21: Bedroom West (-6.5, 2.0)
+2026-01-15 14:16:41,776 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:16:41,776 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:42,279 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:42,783 - WARNING - Emergency stop activated!
+2026-01-15 14:16:42,784 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:43,287 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:43,791 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:44,293 - WARNING - Emergency stop activated!
+2026-01-15 14:16:44,294 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:44,797 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:45,302 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:45,803 - WARNING - Emergency stop activated!
+2026-01-15 14:16:45,803 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:46,304 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:46,808 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:47,311 - WARNING - Emergency stop activated!
+2026-01-15 14:16:47,311 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:16:47,812 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:48,315 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:48,816 - WARNING - Emergency stop activated!
+2026-01-15 14:16:48,817 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:49,319 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:49,821 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:50,323 - WARNING - Emergency stop activated!
+2026-01-15 14:16:50,324 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:50,826 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:51,331 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:51,833 - WARNING - Emergency stop activated!
+2026-01-15 14:16:51,835 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:16:52,337 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.19m,clear:XXX
+2026-01-15 14:16:52,839 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.19m,clear:XXX
+2026-01-15 14:16:53,340 - WARNING - Emergency stop activated!
+2026-01-15 14:16:53,340 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.19m,clear:XXX
+2026-01-15 14:16:53,842 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.18m,clear:XXX
+2026-01-15 14:16:54,347 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.18m,clear:XXX
+2026-01-15 14:16:54,851 - WARNING - Emergency stop activated!
+2026-01-15 14:16:54,851 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.18m,right:0.18m,clear:XXX
+2026-01-15 14:16:55,354 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:55,860 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:56,362 - WARNING - Emergency stop activated!
+2026-01-15 14:16:56,363 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:16:56,865 - WARNING - Failed waypoint: Bedroom West - continuing to next
+2026-01-15 14:16:56,866 - INFO - Navigating to waypoint 16/21: West Hallway North (-2.5, -0.5)
+2026-01-15 14:16:56,869 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:16:56,869 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:57,371 - WARNING - Emergency stop activated!
+2026-01-15 14:16:57,373 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:57,875 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:58,380 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:58,884 - WARNING - Emergency stop activated!
+2026-01-15 14:16:58,886 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:59,389 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:16:59,894 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:00,396 - WARNING - Emergency stop activated!
+2026-01-15 14:17:00,398 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:00,900 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:01,403 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:01,904 - WARNING - Emergency stop activated!
+2026-01-15 14:17:01,904 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:02,405 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:17:02,907 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:17:03,408 - WARNING - Emergency stop activated!
+2026-01-15 14:17:03,410 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:17:03,912 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:04,418 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:04,920 - WARNING - Emergency stop activated!
+2026-01-15 14:17:04,922 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:05,425 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:17:05,928 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:17:06,430 - WARNING - Emergency stop activated!
+2026-01-15 14:17:06,432 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.17m,clear:XXX
+2026-01-15 14:17:06,934 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:07,437 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:07,939 - WARNING - Emergency stop activated!
+2026-01-15 14:17:07,941 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:08,444 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:17:08,947 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:17:09,450 - WARNING - Emergency stop activated!
+2026-01-15 14:17:09,451 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:17:09,953 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:10,457 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:10,960 - WARNING - Emergency stop activated!
+2026-01-15 14:17:10,962 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:11,465 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:11,969 - WARNING - Failed waypoint: West Hallway North - continuing to next
+2026-01-15 14:17:11,970 - INFO - Navigating to waypoint 17/21: West Hallway Center (-4.5, -0.5)
+2026-01-15 14:17:11,973 - WARNING - Emergency stop activated!
+2026-01-15 14:17:11,974 - WARNING - Emergency stop active - waiting for clear path
+2026-01-15 14:17:11,975 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.17m,right:0.18m,clear:XXX
+2026-01-15 14:17:12,477 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:12,980 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:13,482 - WARNING - Emergency stop activated!
+2026-01-15 14:17:13,483 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:13,986 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:17:14,490 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:17:14,993 - WARNING - Emergency stop activated!
+2026-01-15 14:17:14,994 - INFO - Waiting for obstacle to clear... front:0.13m,left:0.17m,right:0.17m,clear:XXX
+2026-01-15 14:17:15,496 - INFO - Waiting for obstacle to clear... front:0.14m,left:0.16m,right:0.18m,clear:XXX
+2026-01-15 14:17:15,860 - INFO - Patrol interrupted by user
+2026-01-15 14:17:15,861 - INFO - 
+============================================================
+PATROL MISSION SUMMARY
+============================================================
+Status: navigating_to_waypoint
+Duration: 268.3 seconds (4.5 minutes)
+Waypoints visited: 10
+Recovery attempts: 1
+Failed waypoints: 6
+Failed locations: ['Fitness Room', 'Fitness Area', 'Bedroom Door', 'Bedroom Center', 'Bedroom West', 'West Hallway North']
+Log file: /home/shib/ros2_ws/enhanced_patrol_log.txt
+============================================================
